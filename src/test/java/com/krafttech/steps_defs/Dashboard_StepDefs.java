@@ -30,9 +30,8 @@ public class Dashboard_StepDefs {
         dashboardPage.navigateTabAndModule(tabName,module);
     }
 
-
-    @And("The user should be able to see all tabs that shown on the dashborad page")
-    public void theUserShouldBeAbleToSeeAllTabsThatShownOnTheDashboradPage(List<String> expectedTabNames) {
+    @And("The user should be able to see all tabs that shown on the dashboard page")
+    public void theUserShouldBeAbleToSeeAllTabsThatShownOnTheDashboardPage(List<String> expectedTabNames) {
         List<String> actualTabNames = BrowserUtils.getElementsText(dashboardPage.tabNames);
         Assert.assertEquals(expectedTabNames,actualTabNames);
 
