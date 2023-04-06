@@ -12,7 +12,7 @@ Feature: Login Functionality
     When The user type in valid credentials: "sgezer@gmail.com" and "sg12345678"
     Then The user should be able to see userName: "Selim Gezer"
 
-
+  @wip
   Scenario:
     Given The user is on the login page
     When The user type in valid credentials: "Ramanzi@test.com" and "Test123456"

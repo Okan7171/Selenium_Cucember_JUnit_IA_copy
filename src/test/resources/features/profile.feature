@@ -15,7 +15,7 @@ Feature: Profile Page Tests
     When The user navigate to profile tab: "Add Education"
     Then The user should be able to see "Add Education" button
 
-
+  @wip
   Scenario: The user navigates to Add Education Page and fill the education form
 
     #Given The user is on the login page
@@ -29,7 +29,7 @@ Feature: Profile Page Tests
     Then The user should see added record with: "İTÜ"
     And The user should be able to delete last added record with : "İTÜ"
 
-
+  @wip
   Scenario: The user navigates to Add Education Page and fill the education form with List
 
     #Given The user is on the login page
